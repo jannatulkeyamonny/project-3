@@ -1,0 +1,173 @@
+ /* .hero-animated{
+    width: 40%;
+    min-height: 50vh;
+    background: url(./hero-carousel-3.svg);
+    background-size: cover; 
+     position: relative;
+    padding:120px 0 60px;
+} 
+ .align-items-center{
+    align-items: center!important ;
+}  
+.d-flex{
+display: flex !important; flex-wrap: nowrap;
+}  */
+
+.card{
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+  .bg{background-image: url(./img/onfocus-content-bg.jpg);}
+
+  .cardi{
+    position: relative;
+    background-color:rgb(218, 173, 173);
+    border-radius: 20px;
+    height: 480px;
+    width: 325px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    
+        }
+        .cardi .card-content{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            padding: 10 px;
+             position: relative; 
+            z-index: 100;
+        }
+
+        section .cardi .image{
+          height: 140px;
+          width:140px;
+          border-radius:50%;
+          padding: 3px;
+          background-color:#fff;
+          box-shadow: 0px -1px 4px 2px rgba(0, 0, 0, 0.2) ;
+     
+         }  
+         section .cardi .image img{
+            height: 100%; 
+            width: 100%; 
+            border-radius: 50%;
+            object-fit: cover; 
+            border-radius: 3px solid #fff;
+         }  
+
+  .box1{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-radius: 20px 20px 0 0;  
+    background: linear-gradient(106.32deg,#f3a60f 14.23%,rgba(255, 25, 25, 0) 139.97%);
+  }
+  .box2{
+      position: absolute;
+      width: 100%;
+      height: 30%;
+      border-radius: 20px 20px 0 0;  
+      background: linear-gradient(106.32deg,#5862f0 14.23%,rgba(255, 25, 25, 0) 139.97%);
+    }
+    .box3{
+      position: absolute;
+      width: 100%;
+      height: 30%;
+      border-radius: 20px 20px 0 0;  
+      background: linear-gradient(106.32deg,#1c8cd1 14.23%,rgba(255, 25, 25, 0) 139.97%);
+    }
+
+    .cardi .media-icons{
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+
+  }
+  .cardi .media-icons i{
+      color:#fff;
+      opacity: 0.7;
+      margin-top: 10px;
+      transition: all 0.3s ease;
+      cursor:pointer;
+
+  }
+
+  .cardi .media-icons i:hover{
+      opacity: 1;
+  }
+  .cardi .name-profession{
+    display: flex;
+    flex-direction: column;  
+align-items: center;
+margin-top: 10px;
+  }
+  .name-profession .name{
+      font-size:20px;
+      font-weight: 600;
+      color: #222;
+  }
+  .name-profession .profession{
+      font-size: 15px;
+      font-weight:500 ;
+      color:#333 ;
+  }
+  .cardi .rating{
+      display: flex;
+      align-items: center;
+      margin-top: 18px;
+  }
+  .cardi .rating i{
+      font-size:18px;
+      margin: 0 2px;
+      color: #bb8210;
+  }
+  section .cardi .about{
+   display: flex;
+    text-align: center;
+    color: #444; 
+    margin-top: 45px;
+    margin-bottom: 5px; 
+  }
+  .cardi .button{
+      width: 100%;
+      display: flex;
+  justify-content: space-around;
+  margin-top:20px;
+  }
+  .cardi .b1 button{
+      background: #f3a323;
+  }
+
+  .cardi .b2 button{
+      background: #5862f0 ;
+  }
+  .cardi .b3 button{
+      background: #1c8cd1;
+  }
+  
+  .cardi .button button{
+      outline: none;
+      border: none;
+      color:#fff;
+      padding:8px 22px;
+      border-radius: 5px;
+      font-size:14px;
+      transition: all 0.3s ease;
+      cursor: pointer;
+  }
+  .cardi .button button:hover{
+       opacity: 0.5;
+  }
